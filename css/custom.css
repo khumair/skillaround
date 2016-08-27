@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        top: -200px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .carousel-caption {
+        top: -250px;
+
+    }
+    .carousel-caption h1, h2{
+        font-size: 18px;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+
+    }
+    .carousel-caption .btn {
+        width: 200px;
+        margin: 5px;
+    }
+    #company .custom-btn {
+        margin-top: -15px;
+    }
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover {
+    background: #50bdc6 !important;
+}
+#company-section {
+    height: 450px;
+}
+#jobseeker{
+  background: #00a0e3;
+  height: 610px;
+}
+#jobseeker,#find-course,#get-help, .section-heading h2{
+  color: #fff;
+}
+#jobseeker .btn,#find-course .btn,#get-help .btn ,.btn-blank a{
+  /*background:#50bdc6 none repeat scroll 0 0;*/
+    color: #fff;
+    border: 2px solid #fff;
+    radius: 5px;
+}
+
+#find-course{
+  background: #c64a61;
+  height: 610px;
+}
+#get-help{
+  background: #50bdc6;
+  height: 610px;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+}
+.page-header h2 {
+    text-transform: none;
+}
+#home a.btn-blank:hover, #company a.custom-btn:hover, #company a.custom-btn2:hover {
+    background: #50bdc6 ;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    color: #fff;
+}
+#jobseeker a.custom-btn:hover, #find-course a.custom-btn:hover, #get-help a.custom-btn:hover{
+    background: #fff ;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    color: #50bdc6;
+    border-color: #50bdc6;
+}
+.btn-blank {
+    border-radius: 4px !important;
+    -webkit-border-radius:  4px !important;
+    -moz-border-radius:  4px !important;
+}
+
+#social-section, .extra-space-l{
+margin-top:5%;
+}
+      /*#find-course, .section-heading h2{
+        color: #fff;
+      }*/
